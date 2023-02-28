@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'LitSans Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('LitSans Medium'), url('../fonts/LitSans-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Arial Rounded MT Std";
+    src: url("../fonts/031795c120315d27375070388a523351.eot"),
+    url("../fonts/031795c120315d27375070388a523351.woff2") format("woff2"), /* chrome firefox */
+    url("../fonts/031795c120315d27375070388a523351.woff") format("woff"), /* chrome firefox */
+    url("../fonts/031795c120315d27375070388a523351.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("../fonts/031795c120315d27375070388a523351.svg") format("svg"); /* iOS 4.1- */
+}
+
+* {
+    font-family: 'LitSans Medium';
+}
+
+#what_we_are {
+    background: #44a9f7;
+}
+#phone img{
+    height: 600px;
+}
+.font-secondary {
+    font-family: 'Arial Rounded MT Std';
+}
